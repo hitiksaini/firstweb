@@ -1,0 +1,116 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+a{
+  font-family: 'Merriweather', serif;
+  color: #EAF6F6;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color:#f6f4e6;
+}
+p{
+  line-height: 2;
+}
+hr{
+  border: dotted  #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+h1
+{
+  margin: 50px auto 0 auto;
+ font-family: 'Sacramento', cursive;
+ font-size:5.625rem;
+ color:#66BFBF;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+   color:#66BFBF;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color:#11999E;
+}
+.below{
+  font-weight: normal;
+}
+.top-container{
+    background-color: #f6f4e6;
+  position:relative;
+  padding-top: 100px;
+}
+.bottom-container{
+background-color: #66BFBF;
+padding: 50px 0 ;
+}
+.bottom-cloud{
+  position: absolute;
+  left:300px;
+  bottom: 300px;
+}
+.top-cloud{
+  position:absolute;
+  right:300px;
+  top:50px;
+}
+.intro{
+  width: 30%;
+  margin: auto;}
+.skill1{
+  float: left;
+  padding-right: 30px;
+}
+.skill2{
+  height: 200px;
+  float: right;
+  padding-left: 30px;
+}
+.myprofile
+{
+  border-radius: 100%;
+  height: 150px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.contact-message
+{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.btn {
+	background:linear-gradient(to bottom, #66BFBF 5%, #6c7c7c 100%);
+	background-color:#66BFBF;
+	border-radius:8px;
+	border:2px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:18px;
+	padding:13px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #66BFBF;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #b2d4cb 100%);
+	background-color:green;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.end
+{
+  color:#f6f4e6;
+  font-size: 14px;
+  padding:5px 0;
+}
